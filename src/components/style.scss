@@ -1,0 +1,79 @@
+.image-item {
+  display: flex;
+  flex-direction: column;
+  max-height: 200px;
+  object-fit: contain;
+  padding: 15px;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.button-wrapper {
+  margin: 10px;
+  .update-btn {
+    height: 30px;
+    margin-right: 10px;
+  }
+  .remove-btn {
+    height: 30px;
+  }
+}
+
+.image-upload-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.drag-n-drop {
+  background-color: white;
+  font-family: "Arial";
+  font-size: 28px;
+  border-radius: 10px;
+  width: 50vw;
+  height: 20vh;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  padding: 50px;
+  margin: 0px auto;
+}
+
+.image-bank {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 15px;
+}
+
+.image {
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 10px;
+  img {
+    max-height: 150px;
+    object-fit: contain;
+  }
+}
+
+.upload-image-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.sub-title-container {
+  display: flex;
+  font-size: 50px;
+  font-family: "Arial";
+  justify-content: center;
+}
+
+.sub-title {
+  font-family: "Arial";
+  font-size: 40px;
+  font-weight: bold;
+}
